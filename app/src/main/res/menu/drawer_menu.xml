@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/transportation_item"
+            android:icon="@drawable/transportation_icon"
+            android:title="@string/drawer_transportation" />
+        <item
+            android:id="@+id/consultation_item"
+            android:icon="@drawable/consultation_icon"
+            android:title="@string/drawer_consultation" />
+        <item
+            android:id="@+id/bidding_item"
+            android:icon="@drawable/bidding_icon"
+            android:title="@string/drawer_bidding" />
+        <item
+            android:id="@+id/dispose_waste_item"
+            android:icon="@drawable/dispose_waste_icon"
+            android:title="@string/drawer_disposeWaste" />
+        <item
+            android:id="@+id/region_item"
+            android:icon="@mipmap/pin"
+            android:title="@string/drawer_region" />
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/settings_icon"
+            android:title="@string/drawer_settings" />
+        <item
+            android:id="@+id/messages_item"
+            android:icon="@drawable/messages_icon"
+            android:title="@string/drawer_messages" />
+        <item
+            android:id="@+id/about_item"
+            android:icon="@drawable/about_icon"
+            android:title="@string/drawer_about" />
+        <item
+            android:id="@+id/contact_item"
+            android:icon="@drawable/contact_icon"
+            android:title="@string/drawer_contact" />
+    </group>
+
+</menu>

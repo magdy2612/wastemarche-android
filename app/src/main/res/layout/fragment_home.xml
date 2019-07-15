@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    tools:context=".ui.activities.main.HomeFragment">
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:id="@+id/drawerButton"
+        android:scaleType="fitCenter"
+        android:tint="@color/wmGreen"
+        android:background="@color/wmClear"
+        android:src="@drawable/menu_icon"
+        android:layout_width="40dp"
+        android:layout_height="30dp" />
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:tint="@color/wmGreen"
+        android:id="@+id/notificationsButton"
+        android:scaleType="fitCenter"
+        android:src="@drawable/notification_icon"
+        android:background="@color/wmClear"
+        android:layout_width="40dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sellButton"
+            android:layout_marginBottom="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/wmGreen"
+            android:text="@string/button_sell"
+            android:background="@drawable/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_marginBottom="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/wmGreen"
+            android:text="@string/button_buy"
+            android:background="@drawable/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/myItemsButton"
+            android:layout_marginBottom="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/wmGreen"
+            android:text="@string/button_myItems"
+            android:background="@drawable/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/myProrposalsButton"
+            android:textSize="24sp"
+            android:textColor="@color/wmGreen"
+            android:text="@string/button_myProposals"
+            android:background="@drawable/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/trash"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+
+
+</RelativeLayout>

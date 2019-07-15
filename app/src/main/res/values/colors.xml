@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="wmGreen">#097f40</color>
+    <color name="wmLightGreen">#47ad2a</color>
+    <color name="wmClear">#000000FF</color>
+    <color name="wmLightGrey">#dbdbdb</color>
+    <color name="wmWhite">#FFFFFF</color>
+    <color name="wmExtraLightGreen">#cee9d8</color>
+    <color name="wmRed">#e52638</color>
+</resources>

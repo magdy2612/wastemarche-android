@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ui.activities.drawer.TransportationRequestFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/wmGreen"
+            android:text="@string/requestTransportation_header"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/addImageButton"
+            android:src="@mipmap/add_image"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:text="@string/text_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corners" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/description"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_description"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/packaging"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_packaging"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/quantity"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_quantity"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/unit"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_unit"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/pickupAddress"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_pickupAddress"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/deliveryAddress"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_deliveryAddress"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/text_additionalComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint=""
+            android:inputType=""
+            android:id="@+id/comments"
+            android:lines="4"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/name"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_name"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType=""
+            android:id="@+id/mobile"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_mobile"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hint_email"
+            android:background="@drawable/extra_light_solid_round_corners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/light_solid_round_corners"
+                android:layout_weight="1"
+                android:text="@string/button_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/solid_round_corners"
+                android:layout_weight="1"
+                android:text="@string/button_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

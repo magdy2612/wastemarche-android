@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/price"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_price"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType=""
+        android:id="@+id/currency"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_currency"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType=""
+        android:id="@+id/paymentTerms"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_payment_temrs"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType=""
+        android:id="@+id/offerValidity"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_offer_validity"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/quantity"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_quantity"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType=""
+        android:id="@+id/unit"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_unit"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:textColor="@color/wmWhite"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/light_solid_round_corners"
+            android:text="@string/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/sendOfferButton"
+            android:textColor="@color/wmWhite"
+            android:layout_weight="1"
+            android:background="@drawable/solid_round_corners"
+            android:text="@string/button_sendOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

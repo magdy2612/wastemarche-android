@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/view_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:inputType=""
+        android:id="@+id/subject"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hint_subject"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/message"
+        android:hint="@string/hint_message"
+        android:inputType=""
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_corners"
+        android:lines="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:textColor="@color/wmWhite"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/light_solid_round_corners"
+            android:text="@string/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/requestExtraInfoButton"
+            android:textColor="@color/wmWhite"
+            android:layout_weight="1"
+            android:background="@drawable/solid_round_corners"
+            android:text="@string/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
